@@ -7,13 +7,13 @@ public class Apptest {
 	public void logintest1()
 	{
 		App obj = new App();
-		Assert.assertEquals( 0 , obj.login("Durga","1234")); 
+		Assert.assertEquals( 0 , obj.login("ram","3025")); 
 	}
 
 @Test
 	public void logintest2()
 	{
 		App obj1 = new App();
-		Assert.assertEquals( 1 , obj1.login("Durga","5678"));
+		Assert.assertEquals( 1 , obj1.login("Durga","1234"));
 	}
 }
